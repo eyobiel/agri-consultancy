@@ -12,12 +12,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+
 class AgriculturalScienceController extends Controller {
 
     /**
      * This method renders a response agriculturalScience.html.twig from the consultancy folder inside views
      *
-     * @Route("/agricultural")
+     * @Route("/agricultural", name="agricultural")
      *
      * @param $request Request
      *

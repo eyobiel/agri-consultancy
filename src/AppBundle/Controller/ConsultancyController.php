@@ -17,7 +17,7 @@ class ConsultancyController extends Controller {
     /**
      * This method renders a response index.html.twig (homepage) from the consultancy folder inside views
      *
-     * @Route("/consultancy")
+     * @Route("/consultancy", name="consultancy")
      *
      * @param $request Request
      *
